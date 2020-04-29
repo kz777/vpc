@@ -19,5 +19,14 @@ Resources:
       AvailabilityZone: us-east-1a
       VpcId: !Ref myVPC
       CidrBlock: 10.0.0.0/24
+      Tags:
+        - Key: Name
+          Value:
+            !Join
+              - ''
+              - - '-SUBNET'
+                - !Ref 'AWS::EC2::VPC'
+                
+               
 
   
