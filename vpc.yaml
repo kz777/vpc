@@ -12,7 +12,7 @@ Resources:
       EnableDnsSupport: true
       Tags:
         - Key: Name
-          Value: !Ref VPCname
+          Value: !Ref Name
   ## Private Subnet
   subnetName:
     Type: AWS::EC2::Subnet
