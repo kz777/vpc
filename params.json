@@ -1,6 +1,7 @@
-[
-  {
-    "ParameterKey": "VPCname",
-    "ParameterValue": "NEWvpcNAME"
+
+  { "Parameters" : {
+    "VPCname" : "MyFirstVPCname"
   }
-]
+
+  }
+
