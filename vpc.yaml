@@ -1,7 +1,7 @@
-Parameters:
-  VPCname:
-    Description: An environment name that is prefixed to resource names
-    Type: String
+# Parameters:
+#   VPCname:
+#     Description: An environment name that is prefixed to resource names
+#     Type: String
 
 Resources:
   ## VPC
