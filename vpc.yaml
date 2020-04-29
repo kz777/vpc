@@ -25,7 +25,7 @@ Resources:
             !Join
               - ''
               - - '-SUBNET'
-                - !Ref 'AWS::EC2::VPC'
+                - !Ref myVPC
                 
                
 
