@@ -21,20 +21,4 @@ Resources:
       VpcId: !Ref myVPC
       CidrBlock: 10.0.0.0/24
 
-  subnetName:
-    Type: AWS::EC2::Subnet
-    Properties:
-      AvailabilityZone: zone-id
-      VpcId: vpc-id
-      CidrBlock: --.--.--.--/--
-      Tags:
-        - Key: keyname
-          Value: value
-
-  routeTableName:
-    Type: AWS::EC2::RouteTable
-    Properties:
-      VpcId: vpc-id
-      Tags:
-        - Key: keyname
-          Value: value
+  
