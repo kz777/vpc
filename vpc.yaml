@@ -10,9 +10,8 @@ Resources:
     Properties:
       CidrBlock: 10.0.0.0/16
       EnableDnsSupport: true
-      Tags:
-        - Key: Name
-          Value:
+  
+        
   ## Private Subnet
   subnetName:
     Type: AWS::EC2::Subnet
